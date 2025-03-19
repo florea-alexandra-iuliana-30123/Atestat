@@ -1,0 +1,150 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: url('https://github.com/soumed-design/landing-page/blob/main/bg.jpg?raw=true');
+  background-size: cover;
+  background-position: center center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  color:antiquewhite;
+    object-position: center;
+    
+} 
+
+
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  color:black;
+    object-position: center;
+    
+} 
+
+ 
+ .locatii {
+        
+        flex-basis: 31%;
+        padding:20px 12; 
+        box-sizing: : border-box; 
+    }
+
+
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color:antiquewhite;
+ float:center;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Main content styles */
+main {
+  padding: 100px 0;
+  margin-top: 80px;
+}
+
+main h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+ /*Footer styles 
+footer {
+  background-color: white;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 1);
+}
+
+footer p {
+  font-size: 2rem;
+  text-align: center;
+}
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+  
+  nav ul li a {
+    padding: 8px 16px;
+  }
+  
+  main {
+    padding: 50px 0;
+    margin-top: 60px;
+  }
+  
+  main h2 {
+    font-size: 1.5rem;
+  }
+  
+  main p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+
+    
+    
+
+  
